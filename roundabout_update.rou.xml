@@ -3,22 +3,21 @@
   <vType id="bus" accel="1.2" decel="3.5" sigma="0.6" length="12.0" maxSpeed="13.89"/>
   <vType id="truck" accel="1.0" decel="3.0" sigma="0.6" length="14.0" maxSpeed="13.89"/>
   <vType id="rv" accel="1.5" decel="3.5" sigma="0.6" length="6.0" maxSpeed="13.89"/>
-  <flow id="flow_Barka_car_0" type="car" from="20910676#0" to="20910676#0" begin="0" end="900" number="30"/>
-  <flow id="flow_Barka_bus_0" type="bus" from="20910676#0" to="20910676#1" begin="0" end="900" number="5"/>
-  <flow id="flow_Barka_truck_0" type="truck" from="20910676#0" to="20910676#1" begin="0" end="900" number="3"/>
-  <flow id="flow_Barka_rv_0" type="rv" from="20910676#0" to="20910676#1" begin="0" end="900" number="1"/>
-  <flow id="flow_Muscat_car_0" type="car" from="20910676#0" to="20910676#1" begin="0" end="900" number="30"/>
-  <flow id="flow_Muscat_bus_0" type="bus" from="20910676#0" to="20910676#1" begin="0" end="900" number="5"/>
-  <flow id="flow_Muscat_truck_0" type="truck" from="20910676#0" to="20910676#1" begin="0" end="900" number="3"/>
-  <flow id="flow_Muscat_rv_0" type="rv" from="20910676#0" to="20910676#1" begin="0" end="900" number="1"/>
-  <flow id="flow_Maabilah_car_0" type="car" from="20910676#0" to="20910676#0" begin="0" end="900" number="30"/>
-  <flow id="flow_Maabilah_bus_0" type="bus" from="20910676#0" to="20910676#0" begin="0" end="900" number="5"/>
-  <flow id="flow_Maabilah_truck_0" type="truck" from="20910676#0" to="20910676#0" begin="0" end="900" number="3"/>
-  <flow id="flow_Maabilah_rv_0" type="rv" from="20910676#0" to="20910676#0" begin="0" end="900" number="1"/>
-  <flow id="flow_Palace_car_0" type="car" from="20910676#0" to="20910676#4" begin="0" end="900" number="30"/>
-  <flow id="flow_Palace_bus_0" type="bus" from="20910676#0" to="20910676#4" begin="0" end="900" number="5"/>
-  <flow id="flow_Palace_truck_0" type="truck" from="20910676#0" to="20910676#0" begin="0" end="900" number="3"/>
-  <flow id="flow_Palace_rv_0" type="rv" from="20910676#0" to="20910676#0" begin="0" end="900" number="1"/>
+  <!-- To Muscat -->
+<flow id="flow_Muscat_car_0" type="car" from="20910676#0" to="20910676#1" begin="0" end="900" number="3"/>
+<flow id="flow_Muscat_truck_0" type="truck" from="20910676#0" to="20910676#1" begin="0" end="900" number="164"/>
+<flow id="flow_Muscat_bus_0" type="bus" from="20910676#0" to="20910676#1" begin="0" end="900" number="3"/>
+
+<!-- To Barka -->
+<flow id="flow_Barka_bus_0" type="bus" from="20910676#0" to="20910676#1" begin="0" end="900" number="23"/>
+<flow id="flow_Barka_rv_0" type="rv" from="20910676#0" to="20910676#1" begin="0" end="900" number="58"/>
+
+<!-- To Maabilah -->
+<flow id="flow_Maabilah_car_0" type="car" from="20910676#0" to="20910676#0" begin="0" end="900" number="6"/>
+<flow id="flow_Maabilah_bus_0" type="bus" from="20910676#0" to="20910676#0" begin="0" end="900" number="245"/>
+
+<!-- To Bait Albarakah Palace -->
+<flow id="flow_Palace_bus_0" type="bus" from="20910676#0" to="20910676#4" begin="0" end="900" number="2"/>
   <flow id="flow_Barka_car_1" type="car" from="20910676#0" to="20910676#1" begin="900" end="1800" number="30"/>
   <flow id="flow_Barka_bus_1" type="bus" from="20910676#0" to="20910676#1" begin="900" end="1800" number="5"/>
   <flow id="flow_Barka_truck_1" type="truck" from="20910676#0" to="20910676#1" begin="900" end="1800" number="3"/>
