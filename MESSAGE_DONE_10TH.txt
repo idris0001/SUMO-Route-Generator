@@ -1,0 +1,10 @@
+Subject: Updated Roundabout Simulation — Files Attached ✅
+Hi Muhammad,
+Thanks for sharing your updated network file. I’ve integrated it into the simulation setup and made the necessary adjustments:
+- Replaced the old network with your mentee_Muhammad.xml
+- Verified and corrected the route file to match your edge definitions
+- Updated the SUMO configuration file to reflect the new setup
+- Successfully ran the simulation in SUMO-GUI — everything works smoothly
+I’ve zipped the updated files and attached them here for you to review. Let me know once you’ve tested it or if you’d like to go over any part of the setup together.
+Best regards,
+Idris

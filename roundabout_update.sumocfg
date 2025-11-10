@@ -1,7 +1,8 @@
 <configuration>
     <input>
-        <net-file value="roundabout1.net.xml"/>
-        <route-files value="roundabout_update.rou.xml"/>
+<!-- <net-file value="roundabout1.net.xml"/> -->
+  <net-file value="roundabout1.net.xml"/>
+  <route-files value="roundabout_update.rou.xml"/>
     </input>
 
     <time>
